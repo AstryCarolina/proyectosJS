@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/calculadora1.css">
+    <script src="https://kit.fontawesome.com/66932a206b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <script src="./js/Display.js" type="text/javascript"></script>
+    <script src="./js/Calculadora.js" type="text/javascript"></script>
+    <script src="./js/principal.js" type="text/javascript" defer></script>
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="/index.html"> <img src="./image/math.png" alt=""></a>
+            <nav>
+                <a href="./index.html">Inicio</a>
+                <a href="./calculadora.html">Calculadora</a>
+                <a href="./areas.html">Áreas de figuras</a>
+                <a href="./juego.html">Dinosaur Game</a>
+            </nav>
+        </div>
+        <section class="banner">
+            <img src="./image/BANNER1.jpg" alt="">
+        </section>
+    </header>
+    
+    <main>
+        <h1>REALIZA TUS CÁLCULOS MATEMÁTICOS:</h1>
+        <br>
+        <div class="container">
+            <div class="calculadora">
+                <div class="display">
+                    <div id="Valor-anterior"></div>
+                    <div id="Valor-actual"></div>
+                </div>
+                <button class="col-2" onclick="display.borrarTodo()">C</button>
+                <button onclick="display.borrar()">&larr;</button>
+                <button class="operador" value="dividir">/</button>
+                <button class="numero">7</button>
+                <button class="numero">8</button>
+                <button class="numero">9</button>
+                <button class="operador" value="multiplicar">*</button>
+                <button class="numero">4</button>
+                <button class="numero">5</button>
+                <button class="numero">6</button>
+                <button class="operador" value="restar">-</button>
+                <button class="numero">1</button>
+                <button class="numero">2</button>
+                <button class="numero">3</button>
+                <button class="operador" value="sumar">+</button>
+                <button class="col-2 numero">0</button>
+                <button class="numero">.</button>
+                <button class="operador" value="igual">=</button>
+            </div>
+        </div>
+        <br>
+        <br>
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h5>Página creada por Astry Carolina &copy;</h5>
+                <br>
+                <p>Derechos reservados</p>
+            </div>
+
+            <div class="content-foo">
+                <h5>Móvil</h5>
+                <br>
+                <p>+51 997 129 104</p>
+            </div>
+
+            <div class="content-foo">
+                <h5>E-mail</h5>
+                <br>
+                <p>sernacarolina924@gmail.com</p>
+            </div>
+
+            <div class="content-foo">
+                <a href="http://www.facebook.com"> <i class="fa-brands fa-facebook"> Facebook</i> </a>
+                <br>
+                <br>
+                <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"> Instagram</i> </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
